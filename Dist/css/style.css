@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.homeSection {
+    background-image: url(../img/doctor-gd66027342_1920.jpg);
+    width: 100%;
+    height: 500px;
+    box-shadow: inset 0 0 0 1000px rgba(42, 148, 139, 0.486);
+    background-position: center;
+}
+
+.topBar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo sup {
+    color: red;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.meniu {
+    height: 60%;
+    width: 40%;
+    margin-top: 25px;
+}
+
+.meniuItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.homeButton {
+    padding: 10px;
+    background-color: rgba(46, 139, 86, 0.521);
+}
+
+.meniu li{
+    list-style: none;
+}
+
+.meniu a {
+    text-decoration: none;
+    color: white;    
+}
+
+.welcomeArea {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mainLogo {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: x-large;
+}
+
+.mainLogo a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.mainLogo sup {
+    color: red;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.welcome h1 {
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    margin: 20px 0 15px 0;
+}
+
+.welcomeArea p {
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+button {
+    border: none;
+    color: white;
+    background-color: rgba(46, 139, 86, 0.664);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.chevron {
+    margin-top: 100px;
+}
+
+.infoSection {
+    width: 100%;
+    margin: 20px 0 0 20px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.topSection {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serviceOne{
+    width: 30%;
+    padding: 15px;
+}
+    
+.serviceTwo{
+    width: 30%;
+    padding: 15px;
+}
+
+.serviceThree{
+    width: 30%;
+    padding: 15px;
+}
+
+.title {
+    margin: 15px 0 15px 0;
+    font-weight: bold;
+}
+
+.titleA {
+    margin: 15px 0 10px 0;
+    font-weight: bold;
+    font-size:25px;
+}
+
+.mark{
+    width: 55px;
+    height: 2px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid orange;
+}
+
+.icon{
+    font-size: 40px;
+    color: rgb(46, 139, 86);
+}
+
+.midSection {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.midEmpty{
+    width: 30%;
+    padding: 15px;
+}
+    
+.midOne{
+    width: 30%;
+    padding: 15px;
+}
+
+.midTwo{
+    width: 30%;
+    padding: 15px;
+}
+
+.bottomSection {
+    width: 90%;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(46, 139, 86);
+}
+
+.bottomSection p {
+    color: white;
+}
+
+.bottomOne{
+    width: 30%;
+    padding: 15px;
+}
+    
+.bottomTwo{
+    width: 30%;
+    padding: 15px;
+    border-left:solid white;
+    border-right:solid white;
+}
+
+.bottomThree{
+    width: 30%;
+    padding: 15px;
+    display: grid;
+    justify-content: center;
+}
+
+.btmTitle{
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+}
+.bottButn{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.bottomThree table{
+    margin-top: -50px;
+    color: white;
+    border: 1px solid white;
+}
+
+.bord{
+    border: 1px solid white;
+}
